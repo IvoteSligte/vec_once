@@ -1,6 +1,7 @@
 use std::ops::{Deref, DerefMut};
 
 /// Iterates over a `Vec`, returning each element exactly once. Allows modification of the underlying data. That's it.
+#[derive(Clone)]
 pub struct VecOnce<T: Clone> {
     index: usize,
     inner: Vec<T>,
