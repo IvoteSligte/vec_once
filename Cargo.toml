@@ -1,0 +1,11 @@
+[package]
+name = "vec_once"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "A struct that iterates over a Vec<T>, returning each item exactly once and allowing the underlying Vec<T> to be mutated safely, that's it."
+repository = "https://github.com/IvoteSligte/vec_once/"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
